@@ -1,33 +1,15 @@
 const theme = {
     framework: "🌑 DARK VOID",
-    version: "Genesis v0.1.0",
+    version: "Genesis v0.1.0-alpha",
 
     status: {
-	online: "🟢"'
-	starting: "🟡",
 	waiting: "⏳",
+	starting: "🟡",
+	online: "🟢"'
+	failed: "❌",
 	offline: "🔴",
 	disabled: "⚪️",
-	success: "✅",
-	failed: "❌"
-    },
-
-    icons: {
-	core: "🧠",
-	logger: "📜",
-	config: "⚙️",
-	database: "🗄",
-	whatsapp: "📱",
-	commands: "📦",
-	plugins: "🔌",
-	dashboard: "🎨",
-	api: "🌐",
-	scheduler: "⏰",
-	security: "🛡",
-	ai: "🤖",
-	memory: "⚡️",
-	uptime: "⏱",
-	network: "📡"
+	success: "✅"
     }
 };
 
