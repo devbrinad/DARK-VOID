@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": node index.js"
+    "start": "node index.js"
   },
-  "keywords": ["whatsapp", "bot", "baileys",],
+  "keywords": ["whatsapp", "bot", "baileys"],
   "author": "DEV BRINAD",
   "license": "ISC",
   "dependencies": {

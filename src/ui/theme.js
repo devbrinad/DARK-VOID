@@ -5,11 +5,32 @@ const theme = {
     status: {
 	waiting: "⏳",
 	starting: "🟡",
-	online: "🟢"'
+	online: "🟢",
+	success: "✅",
 	failed: "❌",
 	offline: "🔴",
-	disabled: "⚪️",
-	success: "✅"
+	disabled: "⚪️"
+    },
+
+    icons: {
+	core: "🧠",
+	logger: "📜",
+	config: "⚙️",
+	database: "🗄",
+	commands: "📦",
+	plugins: "🔌",
+	whatsapp: "📱",
+	dashboard: "🎨",
+	api: "🌐",
+	scheduler: "⏰",
+	event: "⚡️",
+
+	// Future engines
+	security: "🛡",
+	ai: "🤖",
+	memory: "💾",
+	uptime: "⏱",
+	network: "📡"
     }
 };
 
