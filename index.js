@@ -1,3 +1,3 @@
-import { bootScreen } from "./src/ui/boot.js";
+import { startBoot } from "./src/ui/bootEngine.js";
 
-bootScreen();
+await startBoot();
