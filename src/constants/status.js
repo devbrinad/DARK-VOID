@@ -1,4 +1,4 @@
-const STATUS = object.freeze({
+const STATUS = Object.freeze({
     WAITING: "waiting",
     STARTING: "starting",
     ONLINE: "online",
