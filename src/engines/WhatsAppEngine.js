@@ -269,6 +269,21 @@ export default class WhatsAppEngine extends BaseEngine {
         this.stopping = true;
 
         if (this.reconnectTimer) {
-            clearTimeout(this.reconnectTi
+            clearTimeout(this.reconnectTimer);
+            this.reconnectTimer = null;
+        }
 
-.exit
+        const socket = this.socket;
+        this.socket = null;
+
+        if (socket) {
+            socket.end(
+                new Error("DARK VOID WhatsApp Engine stopped")
+            );
+        }
+
+        this.updateStatus(STATUS.OFFLINE);
+
+        console.log("⚫ WhatsApp Engine stopped.");
+    }
+}
